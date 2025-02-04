@@ -1,0 +1,144 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #074d44 0%, #074d44 13vh, #ece5dd 13vh, #ece5dd 100%);
+
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px; 
+}
+
+.container {
+    display: flex;
+    height: 93%; 
+    width: 95%; 
+    background-color: #ffffff;
+    border-radius: 10px; 
+    
+}
+
+.divider {
+    height: 1px; 
+    background-color: #ccc; 
+    margin: 0;
+}
+
+#msg, #profile{
+    width: 48px; 
+    cursor: pointer;
+}
+
+#msg, #threedot,#search{
+    width: 38px; 
+    cursor: pointer;
+}
+.left-icons {
+    display: flex;
+    align-items: flex-end;
+}
+
+.right-icons {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav img {
+    margin-left: auto; 
+    margin-right: 10px;
+}
+
+.outer-column {
+    width: 32%;
+    overflow-y: auto;
+}
+
+.left-icons {
+    margin-right: auto; 
+}
+
+.right-icons {
+    margin-left: auto; 
+}
+#profile{
+    
+    border-radius: 50%;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#outer-left {
+    background-color: #ffffff;
+}
+
+#outer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);;
+}
+
+.user-msg {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.typebox {
+    display: flex;
+    padding: 1px;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.typebox:hover{
+    background-color: #333333;
+}
+.typebox input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+.search-bar{
+    padding: 20px;
+    border-color: #c2c2c2;
+    border-radius: 3px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    border: 1px solid #d3d0d0;
+}
+
+.search-input {
+    display: flex;
+    padding: 1px;
+    height: 4vh;
+    border-color: rgb(204, 204, 204);
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.search-input:hover{
+    border-color: rgb(27, 27, 27);
+}
+
