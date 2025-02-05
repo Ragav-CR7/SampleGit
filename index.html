@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WhatsApp Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="whatsapp-symbol-logo-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="container">
+            
+            <div class="outer-column" id="outer-left">
+                <div class="profile">
+                    <div class="nav">
+                        <div class="left-icons">
+                            <img id="profile" src="https://i.pinimg.com/736x/9c/1c/13/9c1c132695bcf3bea4ef4f353bb0b755.jpg" alt="Profile">
+                        </div>
+                        <div class="right-icons">
+                            <img id="msg" src="comment-svgrepo-com.svg" alt="Message">
+                            <img id="threedot" src="three-dots-vertical-svgrepo-com.svg" alt="Three Dots">
+                        </div>
+                    </div>
+                    <div class="divider"></div> 
+                    <div class="search-bar">
+                        <div class="search-container">
+                            <img id="search" src="search-alt-2-svgrepo-com.svg" alt="Search">
+                            <input type="text" placeholder="Search your contacts" size="60" id="search-input">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="contact-list">
+                    <div class="contact-item" data-name="Kamal Hassan" data-img="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitramala.in%2Fwp-content%2Fuploads%2F2014%2F11%2Fkamal-hassan-birthday-2014.jpg&f=1">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitramala.in%2Fwp-content%2Fuploads%2F2014%2F11%2Fkamal-hassan-birthday-2014.jpg&f=1" class="contact-pic">
+                        <span class="contact-name">Kamal Hassan</span>
+                    </div>
+                    <div class="contact-item" data-name="Ajith Kumar" data-img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.assettype.com%2Fthenewsminute%2Fimport%2Fsites%2Fdefault%2Ffiles%2FAjith_(1)_DN_750x500.jpg&f=1">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.assettype.com%2Fthenewsminute%2Fimport%2Fsites%2Fdefault%2Ffiles%2FAjith_(1)_DN_750x500.jpg&f=1" class="contact-pic">
+                        <span class="contact-name">Ajith Kumar</span>
+                    </div>
+                    <div class="contact-item" data-name="Heisenberg" data-img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.independent.co.uk%2F2023%2F02%2F08%2F11%2FnewFile-7.jpg&f=1">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.independent.co.uk%2F2023%2F02%2F08%2F11%2FnewFile-7.jpg&f=1" class="contact-pic">
+                        <span class="contact-name">Heisenberg</span>
+                    </div>
+                    <div class="contact-item" data-name="Gustavo Fring" data-img="https://static.wikia.nocookie.net/45edadb9-d956-4649-9c3b-c5131b9bbbcf">
+                        <img src="https://static.wikia.nocookie.net/45edadb9-d956-4649-9c3b-c5131b9bbbcf" class="contact-pic">
+                        <span class="contact-name">Gustavo Fring</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="outer-column" id="outer-right">
+                <div id="chat-window" style="display: none;">
+                    
+                    <div id="chat-header">
+                        <img id="chat-profile-pic" src="" alt="Profile" class="contact-pic">
+                        <span id="chat-name">Select a contact</span>
+                    </div>
+                   
+                    <div class="user-msg" id="message-container"> </div>
+                   
+                    
+                </div>
+                <div class="typebox">
+                    <input type="text" placeholder="Type a message..." id="message-input">
+                    <button id="send-button">
+                        <img src="send-2-svgrepo-com.svg" alt="Send">
+                    </button>
+                </div>
+        
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
